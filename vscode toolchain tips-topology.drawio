@@ -106,7 +106,7 @@
         <mxCell id="j4W5x3F-k-piF_Zg3eMT-32" edge="1" parent="1" source="j4W5x3F-k-piF_Zg3eMT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.508;entryY=0.069;entryDx=0;entryDy=0;entryPerimeter=0;" target="j4W5x3F-k-piF_Zg3eMT-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j4W5x3F-k-piF_Zg3eMT-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="IRkernel" vertex="1">
+        <mxCell id="j4W5x3F-k-piF_Zg3eMT-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ipykernel" vertex="1">
           <mxGeometry height="40" width="120" x="290" y="240" as="geometry" />
         </mxCell>
       </root>
