@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="rpTH_WddOai_uuJQHtXL">
+    <mxGraphModel dx="1083" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-3" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Raw data&lt;br&gt;&lt;div&gt;Genus-level OTU table&lt;/div&gt;180 samples x 4435 features" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-7" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Non-Sparse Matrix&lt;/div&gt;&lt;div&gt;180 samples x 3764 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-11" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 1&lt;br&gt;Matrix&lt;/div&gt;&lt;div&gt;180 samples x 846 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-9" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="320.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;GAM model&lt;/div&gt;cut off P = 1e-4" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-17" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 2&lt;br&gt;Matrix&lt;/div&gt;&lt;div&gt;180 samples x 501 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-13" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="420.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="sPLS Dim&lt;br&gt;Reduction" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-15" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="220.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Drop Rowsum &amp;lt; 5&lt;br&gt;(which means abundance is very low)" vertex="1">
+          <mxGeometry height="60" width="150" x="440" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-21" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 3&lt;br&gt;Matrix&lt;/div&gt;&lt;div&gt;180 samples x 278 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-19" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="520.0689655172414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Regression Models" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="620" as="sourcePoint" />
+            <mxPoint x="80" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-28" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 4&lt;br&gt;classified data&lt;/div&gt;&lt;div&gt;180 samples x 278 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Threshold Selection&lt;br&gt;threshold ~ 30" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-30" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-26" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 5&lt;br&gt;High-Cor features removed&lt;/div&gt;&lt;div&gt;180 samples x 31 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-27" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="720" />
+            </Array>
+            <mxPoint x="420" y="630" as="sourcePoint" />
+            <mxPoint x="320" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-29" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;180 samples x 17 features&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-32" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="820.1428571428571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Classification Models" vertex="1">
+          <mxGeometry height="60" width="130" x="440" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
