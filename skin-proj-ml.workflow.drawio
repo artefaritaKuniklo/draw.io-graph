@@ -98,7 +98,7 @@
             <mxPoint x="320" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KUt3Yy27y5GVSEUAel_Y-29" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;180 samples x 17 features&lt;/div&gt;" vertex="1">
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-29" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;180 samples x 23 features&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="220" y="840" as="geometry" />
         </mxCell>
         <mxCell id="KUt3Yy27y5GVSEUAel_Y-32" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
