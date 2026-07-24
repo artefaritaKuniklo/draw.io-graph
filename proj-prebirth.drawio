@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="F18n365Wq0qb85yCMza1">
-    <mxGraphModel dx="2260" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1318" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
         <mxCell id="t2HqNOH72y40posJcsgY-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Sedimentibacter sp.&lt;br&gt;Paraclostridium sp.&lt;br&gt;uncultured Clostridium&lt;br&gt;Clostridium innocuum" vertex="1">
           <mxGeometry height="60" width="170" x="327.5" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="t2HqNOH72y40posJcsgY-37" edge="1" parent="1" source="t2HqNOH72y40posJcsgY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="t2HqNOH72y40posJcsgY-6">
+        <mxCell id="2oD1S3iNRUbSn3wKfgFV-1" edge="1" parent="1" source="t2HqNOH72y40posJcsgY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t2HqNOH72y40posJcsgY-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t2HqNOH72y40posJcsgY-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="PPAR pathway" vertex="1">
