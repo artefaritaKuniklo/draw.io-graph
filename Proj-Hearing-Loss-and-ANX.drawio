@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="cOZmFcjf9XwyG6jRhnj6">
-    <mxGraphModel dx="1580" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1272" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,11 +61,90 @@
         <mxCell id="dq6NfrIKyt9Bif06Lcjx-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;" value="L-Histidine&lt;br&gt;L-Arginine&lt;br&gt;&lt;div&gt;N-acetyltryptophan&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="170" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="7ZRkgAoOy3v8SPVS0WW2-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="data&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="7ZRkgAoOy3v8SPVS0WW2-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;size=10;" value="data&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="70" x="190" y="150" as="geometry" />
         </mxCell>
         <mxCell id="7ZRkgAoOy3v8SPVS0WW2-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="treatment" vertex="1">
           <mxGeometry height="40" width="80" x="290" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-9" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="167 metabolisms" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-11" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LASSO&lt;br&gt;(L1正则化)" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="43 metabolisms&lt;br&gt;(没有L-Arg)" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-12" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="167 metabolisms" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-19" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="scale (z-scale -&amp;gt;&lt;br&gt;mean = 0&lt;br&gt;sigma = 1)" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-21" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-23" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="log1p&lt;br&gt;(base = e)" vertex="1">
+          <mxGeometry height="60" width="100" x="490" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-25" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ropls&lt;br&gt;(calc VIP value)" vertex="1">
+          <mxGeometry height="60" width="100" x="400" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-26" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="960" />
+              <mxPoint x="380" y="960" />
+              <mxPoint x="380" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="limma&lt;br&gt;(calc logFC, p, padj)" vertex="1">
+          <mxGeometry height="60" width="100" x="540" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-29" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1000" />
+              <mxPoint x="240" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-30" edge="1" parent="1" source="BpeoH3W9CulixHBpGprg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BpeoH3W9CulixHBpGprg-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1000" />
+              <mxPoint x="380" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="167 metabolisms&lt;br&gt;(with VIP, logFC and padj)" vertex="1">
+          <mxGeometry height="60" width="180" x="180" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="rank: Padj&lt;br&gt;cutoff: VIP val" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="BpeoH3W9CulixHBpGprg-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="cutoff: logFC&lt;br&gt;cutoff: Padj" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="1020" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
