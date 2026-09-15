@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="rpTH_WddOai_uuJQHtXL">
-    <mxGraphModel dx="1083" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1580" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
             <mxPoint x="320" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KUt3Yy27y5GVSEUAel_Y-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 3&lt;br&gt;Matrix&lt;/div&gt;&lt;div&gt;180 samples x 278 features&lt;/div&gt;" vertex="1">
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 3&lt;br&gt;Matrix&lt;/div&gt;&lt;div&gt;180 samples x 350 features&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="220" y="540" as="geometry" />
         </mxCell>
         <mxCell id="KUt3Yy27y5GVSEUAel_Y-19" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
@@ -77,7 +77,7 @@
         <mxCell id="KUt3Yy27y5GVSEUAel_Y-28" edge="1" parent="1" source="KUt3Yy27y5GVSEUAel_Y-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KUt3Yy27y5GVSEUAel_Y-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KUt3Yy27y5GVSEUAel_Y-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 4&lt;br&gt;classified data&lt;/div&gt;&lt;div&gt;180 samples x 278 features&lt;/div&gt;" vertex="1">
+        <mxCell id="KUt3Yy27y5GVSEUAel_Y-24" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;Stage 4&lt;br&gt;classified data&lt;/div&gt;&lt;div&gt;180 samples x 350 features&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="200" x="220" y="640" as="geometry" />
         </mxCell>
         <mxCell id="KUt3Yy27y5GVSEUAel_Y-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Threshold Selection&lt;br&gt;threshold ~ 30" vertex="1">
