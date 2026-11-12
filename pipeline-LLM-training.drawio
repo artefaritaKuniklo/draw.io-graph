@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="kKvIWAs2uHNBoQcPFmmV">
+    <mxGraphModel dx="1579" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-3" edge="1" parent="1" source="NjzDiUjFpHDlrWbf4DxB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NjzDiUjFpHDlrWbf4DxB-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="70" />
+              <mxPoint x="300" y="200" />
+              <mxPoint x="60" y="200" />
+              <mxPoint x="60" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05;arcSize=6;" value="&lt;b&gt;确定基座模型&lt;/b&gt;&lt;br&gt;对Hugging Face/Ollama仓库中基座模型调研并根据影像类任务选择bench进行跑分&lt;br&gt;需要两个模型：1x识图+1x病理解读" vertex="1">
+          <mxGeometry height="60" width="200" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-5" edge="1" parent="1" source="NjzDiUjFpHDlrWbf4DxB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NjzDiUjFpHDlrWbf4DxB-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="260" />
+              <mxPoint x="300" y="390" />
+              <mxPoint x="60" y="390" />
+              <mxPoint x="60" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-7" edge="1" parent="1" source="NjzDiUjFpHDlrWbf4DxB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NjzDiUjFpHDlrWbf4DxB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-2" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05;arcSize=6;" value="第一轮模型能力补齐&lt;br&gt;主要针对基座模型补齐harness/agent所需的套件：联网搜索+hindsight记忆库+skill沉淀回收机制" vertex="1">
+          <mxGeometry height="60" width="200" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-9" edge="1" parent="1" source="NjzDiUjFpHDlrWbf4DxB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NjzDiUjFpHDlrWbf4DxB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-4" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05;arcSize=6;" value="&lt;b&gt;对识图模型的精调与后训练&lt;/b&gt;&lt;br&gt;使用现有牙科数据集+骨密度估计进行LoRA与后训练 提升对骨密度和牙床建模判读的精确度" vertex="1">
+          <mxGeometry height="60" width="200" x="80" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-10" edge="1" parent="1" source="NjzDiUjFpHDlrWbf4DxB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NjzDiUjFpHDlrWbf4DxB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-6" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05;arcSize=6;" value="&lt;b&gt;对病理模型的精调与后训练&lt;/b&gt;&lt;br&gt;主要针对语言模型的病理判读能力补齐LoRA与fine-tuning" vertex="1">
+          <mxGeometry height="60" width="200" x="390" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-12" edge="1" parent="1" source="NjzDiUjFpHDlrWbf4DxB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NjzDiUjFpHDlrWbf4DxB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-8" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05;arcSize=6;" value="&lt;b&gt;对病理模型的第二次精调与后训练&lt;/b&gt;&lt;br&gt;在LoRA过后的识图模型基础上对病理语言模型进行第二次后训练微调" vertex="1">
+          <mxGeometry height="60" width="200" x="390" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="NjzDiUjFpHDlrWbf4DxB-11" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.05;arcSize=6;" value="&lt;b&gt;安全对齐与医学伦理对齐&lt;/b&gt;&lt;br&gt;可能咨询相关行业律师等&lt;br&gt;为防止模型做出超出自身能力的判读而进行的边界限制" vertex="1">
+          <mxGeometry height="60" width="200" x="390" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
